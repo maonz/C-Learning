@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int speed;
-    scanf("%d",&speed);
-    float speedFl = (float)speed;
-    float convertToMetersS = speedFl * 0.27777777778;
-    printf("%d\n", (int)convertToMetersS);
+    float speed;
+    scanf("%f",&speed);
+    float convertToMetersS = speed / 3.6;
+    printf("%f\n", convertToMetersS);
     return 0;
 }
