@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int convert(int a, int b, int c);
+int convert(int, int, int );
 int minimalCoin(int a);
 int main()
 {
